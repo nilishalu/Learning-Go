@@ -19,10 +19,11 @@ func main() {
 	
     num := 57
 
-	fmt.Printf("%v %d %x %o %b %T %T", num, num, num, num, num, num, &num)
+	fmt.Printf("%v %d %x %o %b %T %T\n", num, num, num, num, num, num, &num)
 
 	char := "H"
 	str := "Hello"
 
-	fmt.Printf("%v %s %T")
+	fmt.Printf("%v %s %T\n", char, char, char)
+	fmt.Printf("%v %s %T\n", str, str, str)
 }
