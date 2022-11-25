@@ -11,6 +11,9 @@ func sliceAsReference() {
 		"Rahul",
 		"Pragya",
 		"Prajakta",
+		"Shiva",
+		"Subrahmanya",
+		"Vishal",
 	}
 
 	a := names[0:2]
